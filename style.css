@@ -1,7 +1,33 @@
 body {
     text-align: center;
+    background-color: aliceblue;
+}
+/* today's container */
+.todayContainer {
+border: 2px solid black;
+}
+
+/* all day's container */
+.allDaysContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+  flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.todayContainer {
+    background-color: gray;
+}
+
+.dayContainer {
+    background-color:lightblue ;
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
 }
 
 li {
     list-style: none;
 }
+

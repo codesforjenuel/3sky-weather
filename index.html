@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skyfive Weather</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Skyfive Weather</h1>
     </header>
-    <div>
+    <div class="todayContainer" >
         <h2>Aliso Viejo</h2>
+        <input type="text" placeholder="search city" required>
+        <button type="submit">Search</button>
         <h3>Today</h3>
         <!-- <img> -->
         <ul>
@@ -21,8 +24,9 @@
             <li>Uv <p></p></li>
             
         </ul>
-    </div>
-    <div>
+    </div >
+    <div class="allDaysContainer">
+    <div class="dayContainer">
         <h3>Day-2</h3>
         <!-- <img> -->
         <ul>
@@ -33,7 +37,7 @@
             
         </ul>
     </div>
-    <div>
+    <div class="dayContainer">
         <h3>Day-3</h3>
         <!-- <img> -->
         <ul>
@@ -44,7 +48,7 @@
             
         </ul>
     </div>
-    <div>
+    <div class="dayContainer">
         <h3>Day-4</h3>
         <!-- <img> -->
         <ul>
@@ -55,7 +59,7 @@
             
         </ul>
     </div>
-    <div>
+    <div class="dayContainer">
         <h3>Day-5</h3>
         <!-- <img> -->
         <ul>
@@ -66,6 +70,6 @@
             
         </ul>
     </div>
-   
+   </div>
 </body>
 </html>

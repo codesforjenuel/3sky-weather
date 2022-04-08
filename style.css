@@ -1,7 +1,21 @@
 body {
     text-align: center;
 }
+/* today's container */
+.todayContainer {
+border: 2px solid black;
+}
+
+/* all day's container */
+.allDaysContainer {
+    border: 2px solid black;
+}
+.dayContainer {
+    border: 2px solid black;
+    width: 50%;
+}
 
 li {
     list-style: none;
 }
+

@@ -1,10 +1,12 @@
 body {
     text-align: center;
-    background-color: aliceblue;
+    background:url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+background-size: cover;
 }
 /* today's container */
 .todayContainer {
-border: 2px solid black;
+    box-shadow: 0px 0px 10px 4px black;
+    border-radius: 20px 0px 20px 0px;
 }
 
 /* all day's container */
@@ -17,14 +19,15 @@ border: 2px solid black;
 }
 
 .todayContainer {
-    background-color: gray;
+    background-color: none;
+    backdrop-filter: blur(10px) ;
 }
 
 .dayContainer {
     background-color:lightblue ;
     border: 2px solid black;
-    width: 400px;
-    height: 600px;
+    width: 200px;
+    height: 400px;
 }
 
 li {

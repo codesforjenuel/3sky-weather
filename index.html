@@ -9,69 +9,49 @@
 </head>
 <body>
     <header>
-        <h1>Skyfive Weather</h1>
+        <h1>3Sky Weather</h1>
     </header>
     <div class="todayContainer" >
-        <h2>Aliso Viejo</h2>
+        <h2 class="cityName">City</h2>
+        <form>
         <input class="inputEl" type="text" placeholder="search city" required>
-        <button type="submit">Search</button>
-        <h3>Today</h3>
-        <!-- <img> -->
+        <button class="btn" type="submit">Search</button>
+        </form>
+        <h3 class="today">Today</h3>
+        <img  class="todaySky" width="64px" height="64px" >
         <ul>
-            <li>Temp <p></p></li>
+            <li class="temp">Temp <p></p></li>
             <li class="wind">Wind</li>
-            <li>Humidity <p></p></li>
-            <li>Uv <p></p></li>
-            
+            <li class="humid">Humidity <p></p></li>
+            <li class="uv">Uv <p></p></li>
+            <li class="condition"></li>
         </ul>
     </div >
     <div class="allDaysContainer">
     <div class="dayContainer">
-        <h3>Day-2</h3>
-        <!-- <img> -->
+        <h3 class="tomorrow">Day-2</h3>
+        <img class="tomorrowSky" width="64px" height="64px">
         <ul>
-            <li>Temp <p></p></li>
-            <li class="wind">Wind</li>
-            <li>Humidity <p></p></li>
-            <li>Uv <p></p></li>
+            <li class="temp2">Temp <p></p></li>
+            <li class="wind2">Wind</li>
+            <li class="humid2">Humidity <p></p></li>
+            <li class="uv2">Uv <p></p></li>
+            <li class="condition2"></li>
             
         </ul>
     </div>
     <div class="dayContainer">
-        <h3>Day-3</h3>
-        <!-- <img> -->
+        <h3 class="dayAfterTomorrow">Day-3</h3>
+        <img class="dayAfterTomorrowSky" width="64px" height="64px">
         <ul>
-            <li>Temp <p></p></li>
-            <li class="wind">Wind</li>
-            <li>Humidity <p></p></li>
-            <li>Uv <p></p></li>
-            
+            <li class="temp3">Temp <p></p></li>
+            <li class="wind3">Wind</li>
+            <li class="humid3">Humidity <p></p></li>
+            <li class="uv3">Uv <p></p></li>
+            <li class="condition3"></li>
         </ul>
     </div>
-    <div class="dayContainer">
-        <h3>Day-4</h3>
-        <!-- <img> -->
-        <ul>
-            <li>Temp <p></p></li>
-            <li class="wind">Wind</li>
-            <li>Humidity <p></p></li>
-            <li>Uv <p></p></li>
-            
-        </ul>
-    </div>
-    <div class="dayContainer">
-        <h3>Day-5</h3>
-        <!-- <img> -->
-        <ul>
-            <li>Temp <p></p></li>
-            <li class="wind">Wind <p></p>mph</li>
-            <li>Humidity <p></p></li>
-            <li>Uv <p></p></li>
-            
-        </ul>
-    </div>
-   </div>
-
+    
 <script src="script.js"></script>
 
 </body>

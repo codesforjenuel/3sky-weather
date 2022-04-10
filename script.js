@@ -16,11 +16,9 @@ fetch(api2)
 .then((weatherInfo => {
     console.log(weatherInfo)
 document.querySelector(".wind").textContent = `Wind: ${weatherInfo.current.wind_speed} mph`
-
-
-
-
-
+document.querySelector(".temp").textContent = `Temp: ${weatherInfo.current.temp}`
+document.querySelector(".humid").textContent = `Humidity: ${weatherInfo.current.humidity}`
+document.querySelector(".uv").textContent = `Uv: ${weatherInfo.current.uvi}`
 }))} 
 const errorCallback = (error) => {
     console.error(error)

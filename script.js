@@ -14,9 +14,9 @@ const successCallback = (position) => {
         .then((weatherInfo => {
             console.log(weatherInfo)
             //these query selectors target the today container elements  
-           let codeIcon = weatherInfo.current.condition.icon
-           console.log(codeIcon)
-            document.querySelector(".todaySky").src =`${codeIcon}`  ;
+            let codeIcon = weatherInfo.current.condition.icon
+            console.log(codeIcon)
+            document.querySelector(".todaySky").src = `${codeIcon}`;
             document.querySelector(".cityName").textContent = weatherInfo.location.name;
             document.querySelector(".today").textContent = weatherInfo.forecast.forecastday[0].date;
             document.querySelector(".temp").textContent = `Temp: ${weatherInfo.current.temp_f}°F`
@@ -51,7 +51,7 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 //value of the city name typed in the input element
 let btn = document.querySelector(".btn").addEventListener("click", (event) => {
     event.preventDefault()
-    
+
     let api = `https://api.weatherapi.com/v1/forecast.json?key=3ef0c6e33fa943f4805232459211609&q=${inputEl.value}&days=5&aqi=no&alerts=no`
     fetch(api)
         .then(response => response.json())
@@ -59,8 +59,8 @@ let btn = document.querySelector(".btn").addEventListener("click", (event) => {
             console.log(weatherData)
             //these query selectors target the today container elements  
             // 
-    
-            document.querySelector(".todaySky").src = weatherData.current.condition.icon ;
+
+            document.querySelector(".todaySky").src = weatherData.current.condition.icon;
             document.querySelector(".cityName").textContent = weatherData.location.name;
             document.querySelector(".today").textContent = weatherData.forecast.forecastday[0].date;
             document.querySelector(".temp").textContent = `Temp: ${weatherData.current.temp_f}°F`

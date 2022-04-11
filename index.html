@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,72 @@
     <title>Skyfive Weather</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1><img src="https://www.emoji.com/wp-content/uploads/filebase/3d%20icons/emoji-3d%20icons-glossy-3d-icons-sun-behind-small-cloud-72dpi-forPersonalUseOnly.gif" alt="sun and cloud gif" width="80px" height="80px">3SKY WEATHER</h1>
+        <h1><img src="https://www.emoji.com/wp-content/uploads/filebase/3d%20icons/emoji-3d%20icons-glossy-3d-icons-sun-behind-small-cloud-72dpi-forPersonalUseOnly.gif"
+                alt="sun and cloud gif" width="80px" height="80px">3SKY WEATHER</h1>
     </header>
     <div class="container">
-    <div class="todayContainer" >
-        <h2 class="cityName">City</h2>
-        <form>
-        <input class="inputEl" type="text" placeholder="search city" required>
-        <button class="btn" type="submit">Search</button>
-        </form>
-        <h3 class="today">Today</h3>
-        <img  class="todaySky" width="100px" height="100px" >
-        <ul>
-            <li class="temp">Temp <p></p></li>
-            <li class="wind">Wind</li>
-            <li class="humid">Humidity <p></p></li>
-            <li class="uv">Uv <p></p></li>
-            <li class="condition"></li>
-        </ul>
-    </div >
-    <div class="allDaysContainer">
-    <div class="dayContainer">
-        <h3 class="tomorrow">Day-2</h3>
-        <img class="tomorrowSky" width="64px" height="64px">
-        <ul>
-            <li class="temp2">Temp <p></p></li>
-            <li class="wind2">Wind</li>
-            <li class="humid2">Humidity <p></p></li>
-            <li class="uv2">Uv <p></p></li>
-            <li class="condition2"></li>
-            
-        </ul>
-    </div>
-    <div class="dayContainer">
-        <h3 class="dayAfterTomorrow">Day-3</h3>
-        <img class="dayAfterTomorrowSky" width="64px" height="64px">
-        <ul>
-            <li class="temp3">Temp <p></p></li>
-            <li class="wind3">Wind</li>
-            <li class="humid3">Humidity <p></p></li>
-            <li class="uv3">Uv <p></p></li>
-            <li class="condition3"></li>
-        </ul>
-    </div>
-    </div>
-<script src="script.js"></script>
+        <div class="todayContainer">
+            <h2 class="cityName">City</h2>
+            <form>
+                <input class="inputEl" type="text" placeholder="search city" required>
+                <button class="btn" type="submit">Search</button>
+            </form>
+            <h3 class="today">Today</h3>
+            <img class="todaySky" width="100px" height="100px">
+            <ul>
+                <li class="temp">Temp <p></p>
+                </li>
+                <li class="wind">Wind</li>
+                <li class="humid">Humidity <p></p>
+                </li>
+                <li class="uv">Uv <p></p>
+                </li>
+                <li class="condition"></li>
+            </ul>
+        </div>
+        <div class="allDaysContainer">
+            <div class="dayContainer">
+                <h3 class="tomorrow">Day-2</h3>
+                <img class="tomorrowSky" width="64px" height="64px">
+                <ul>
+                    <li class="temp2">Temp <p></p>
+                    </li>
+                    <li class="wind2">Wind</li>
+                    <li class="humid2">Humidity <p></p>
+                    </li>
+                    <li class="uv2">Uv <p></p>
+                    </li>
+                    <li class="condition2"></li>
+
+                </ul>
+            </div>
+            <div class="dayContainer">
+                <h3 class="dayAfterTomorrow">Day-3</h3>
+                <img class="dayAfterTomorrowSky" width="64px" height="64px">
+                <ul>
+                    <li class="temp3">Temp <p></p>
+                    </li>
+                    <li class="wind3">Wind</li>
+                    <li class="humid3">Humidity <p></p>
+                    </li>
+                    <li class="uv3">Uv <p></p>
+                    </li>
+                    <li class="condition3"></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <a href="https://www.weatherapi.com/" title="Free Weather API"><img
+                    src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com"
+                    border="0"></a>
+                    Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+        </footer>
+        <script src="script.js"></script>
 
 </body>
+
 </html>

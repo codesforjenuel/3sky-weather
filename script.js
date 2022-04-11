@@ -1,5 +1,4 @@
 let inputEl = document.querySelector(".inputEl");
-
 //used the successCallback function to get access to the current location of the user
 const successCallback = (position) => {
     console.log(position)
@@ -84,7 +83,7 @@ let btn = document.querySelector(".btn").addEventListener("click", (event) => {
             document.querySelector(".humid3").textContent = `Humidity: ${weatherData.forecast.forecastday[2].hour[12].humidity}`
             document.querySelector(".uv3").textContent = `Uv: ${weatherData.forecast.forecastday[2].hour[12].uv}`
             document.querySelector(".condition3").textContent = weatherData.forecast.forecastday[2].hour[12].condition.text
-
+            //inputEl is given a value of an empty string to clear the text that was inputed when you click the search button
             inputEl.value = ""
         }))
 })

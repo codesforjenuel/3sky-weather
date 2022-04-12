@@ -38,7 +38,7 @@ h1 {
     border-radius: 20px;
     color: skyblue;
     padding: 30px;
-    background: linear-gradient(rgb(118, 129, 255), rgb(0, 137, 158));
+    background: rgb(23, 23, 42);
     backdrop-filter: blur(10px);
     width: 80%;
     height: 90%;
@@ -62,7 +62,7 @@ h1 {
     align-items: center ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 40px;
-    background: linear-gradient(rgb(118, 129, 255), rgb(0, 137, 158));
+    background: rgb(23, 23, 42);
     height: 10%;
     margin-left: 5%;
     margin-right: 5%;
@@ -103,7 +103,7 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: rgb(72, 147, 172);
+    background: rgb(23, 23, 42);
     text-align: center;
     box-shadow: inset 0px 0px 10px 1px black;
 }

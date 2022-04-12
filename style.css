@@ -11,7 +11,7 @@ body {
 
 h1 {
     height: 200px;
-    background: url("https://mocah.org/mocahbig/395884-wallpaper-aurora-borealis-northern-lights-mountain.jpg");
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26bcbe81-a3fa-43da-8b10-7b37ce15b07d/demdyla-5c43f79c-b70a-4fd7-bf23-848883140ae6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2YmNiZTgxLWEzZmEtNDNkYS04YjEwLTdiMzdjZTE1YjA3ZFwvZGVtZHlsYS01YzQzZjc5Yy1iNzBhLTRmZDctYmYyMy04NDg4ODMxNDBhZTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.znQzGkeCg0xHnVXotF6eMsJwxyqIt3Xp9KrqSFgYEFs");
     background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -36,7 +36,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: inset 0px 0px 10px 1px black;
     border-radius: 20px;
-    color: white;
+    color: skyblue;
     padding: 30px;
     background: linear-gradient(rgb(118, 129, 255), rgb(0, 137, 158));
     backdrop-filter: blur(10px);
@@ -56,6 +56,7 @@ h1 {
 
 
 .dayContainer {
+    color: skyblue;
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -66,11 +67,11 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
-    box-shadow: inset 0px 0px 20px -5px black;
+    box-shadow: inset 0px 0px 20px -1px black;
 }
 
 h2 {
-    text-shadow: 2px 1px 5px black;
+    font-size: 30px;
 }
 
 .inputEl {

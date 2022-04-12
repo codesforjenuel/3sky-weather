@@ -2,8 +2,7 @@ body {
     position: relative;
     min-height: 100vh;
     margin: 0;
-    text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+    background: rgb(32, 95, 178);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,6 +10,9 @@ body {
 }
 
 h1 {
+    height: 200px;
+    background: url("https://mocah.org/mocahbig/395884-wallpaper-aurora-borealis-northern-lights-mountain.jpg");
+    background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     text-shadow: 2px 1px 5px black;
@@ -18,10 +20,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: inset 0px 0px 10px 1px black;
 }
 
 .container {
-flex-direction: column;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,12 +32,13 @@ flex-direction: column;
 
 
 .todayContainer {
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 0px 0px 10px 4px black;
-    border-radius: 100px 0px 100px 0px;
+    box-shadow: inset 0px 0px 10px 1px black;
+    border-radius: 20px;
     color: white;
     padding: 30px;
-    background-color: none;
+    background: linear-gradient(rgb(118, 129, 255), rgb(0, 137, 158));
     backdrop-filter: blur(10px);
     width: 80%;
     height: 90%;
@@ -46,9 +50,7 @@ flex-direction: column;
 .allDaysContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: center;
-margin-bottom: 40%;
+    margin-bottom: 20%;
 }
 
 
@@ -56,18 +58,15 @@ margin-bottom: 40%;
 .dayContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 30px;
-    background-color: rgb(72, 147, 172);
-    border: none;
-    width: 220px;
-    height: 280px;
+    margin: 40px;
+    background: linear-gradient(rgb(118, 129, 255), rgb(0, 137, 158));
+    height: 10%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
-
+    box-shadow: inset 0px 0px 20px -5px black;
 }
 
 h2 {
@@ -82,6 +81,7 @@ h2 {
 
 li {
     list-style: none;
+    padding-right: 20px;
 }
 
 button {
@@ -96,6 +96,7 @@ button:hover {
 }
 
 footer {
+    
     position: absolute;
     right: 0;
     bottom: 0;
@@ -103,23 +104,25 @@ footer {
     padding: 1rem;
     background-color: rgb(72, 147, 172);
     text-align: center;
+    box-shadow: inset 0px 0px 10px 1px black;
 }
 
 @media only screen and (max-width: 920px) {
- 
+
 
     h1 {
         flex-direction: column;
     }
 
- 
+
 }
 
 @media only screen and (max-width: 400px) {
     .dayContainer {
-        width: 120px;
+       
         padding-right: 15px;
+        font-size: 10px
     }
 
-    
+
 }

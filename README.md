@@ -1,2 +1,2 @@
 # 3sky-weather
-weather mood for the next 5 days
+weather mood for the next 3 days
